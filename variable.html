@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variable JS</title>
+  </head>
+  <!-- VARIABLE
+    1. Variable adalah penanda identitas yang digunakan sebagai tempat untuk menyimpan data/nilai
+    2. Dengan menyimpan data di variable, kita bisa menggunakannya lagi dengan menyebutkan nama
+       variable nya
+    3. Untuk membuat variable di Javascript, kita bisa menggunakan kata kunci var diikuti dengan
+       nama variable nya
+    4. Javascript adalah dynamic language, artinya variable di Javascript tidak terpaku harus 
+       menggunakan satu tipe data, kita bisa mengubah-ubah tipe data di variable yang sama
+    catatan: nama variable tidak boleh mengandung spasi
+             biasanya developer javascript menggunakan camel case untuk nama variable ex: var fullName, var programmerZamanNow
+    MENGUBAH value di variable
+    1. Setelah variable di deklarasikan, kita bisa mengubah value atau nilai di dalam variable tersebut
+    2. Untuk mengubahnya, kita bisa menggunakan perintah nama variable diikuti dengan tanda sama dengan (=)
+       lalu diikuti dengan value atau nilainya
+    MEMBUAT VARIABLE LANGSUNG DENGAN VALUE
+    1. Di javascript juga kita bisa mendeklarasikan sebuah variable, langsung dengan isi value nya
+    2. Caranya kita bisa menggunakan kata kunci var, diikuti nama variable, lalu diikuti dengan tanda sama dengan (=)
+       dan di ikuti dengan value atau nilainya
+    MENGAKSES variable
+    1. Salah satu keuntungan menggunakan variable adalah variable bisa digunakan kembali
+    2. Hal ini akan mempermudah ketika membutuhkan data yang sama berkali-kali
+    3. Untuk mengakses variable, kita cukup menyebutkan nama variablenya
+    KATA KUNCI let dan const
+    1. Sebelum tahun 2015, kata untuk membuat variable hanya bisa menggunakan kata kunci var
+    2. Namun pada tahun 2015 sejak versi ECMAScript 2015, diperkenalkan kata kunci baru untuk 
+       membuat variable yaitu let dan const
+    3. Javascript sekarang tidak direkomendasikan lagi menggunakan kata kunci var untuk membuat
+       variable, namun diganti dengan let, hal ini dikarenakan ada masalah dari desain awal var
+       (akan kita bahas di chapter tersendiri)-->
+  <body>
+    <script>
+      //contoh program dibawah yang perlu menggunakan variable
+      // document.writeln("Danni Adhyatma Rachman");
+      // document.writeln("</br>");
+      // document.writeln("Danni Adhyatma Rachman");
+      // document.writeln("</br>");
+      // document.writeln("Danni Adhyatma Rachman");
+      // document.writeln("</br>");
+      // document.writeln("Danni Adhyatma Rachman");
+      // document.writeln("</br>");
+      // document.writeln("Danni Adhyatma Rachman");
+      // document.writeln("</br>");
+      // document.writeln("Danni Adhyatma Rachman");
+      // document.writeln("</br>");
+      // document.writeln("Danni Adhyatma Rachman");
+      // document.writeln("</br>");
+      // document.writeln("Danni Adhyatma Rachman");
+      // document.writeln("</br>");
+      // document.writeln("Danni Adhyatma Rachman");
+      // document.writeln("</br>");
+      // document.writeln("Danni Adhyatma Rachman");
+      // document.writeln("</br>");
+
+      // variable pada javascript 
+      // var fullName;
+      // var firstName;
+      // var middleName;
+      // var lastName;
+
+      // fullName = "Danni Adhyatma Rachman";
+      // firstName = "Danni";
+      // middleName = "Adhyatma";
+      // lastName = "Rachman";
+
+      // document.writeln(fullName);
+      // document.writeln("</br>");
+      // document.writeln(firstName);
+      // document.writeln("</br>");
+      // document.writeln(middleName);
+      // document.writeln("</br>");
+      // document.writeln(lastName);
+      // document.writeln("</br>");
+
+      //ini merupakan kode js langsung variable dengan value disatuin
+      // var firstName = "Danni ";
+      // var middleName = "Adhyatma";
+      // var lastName = "Rachman";
+      // var fullName = "Danni Adhyatma" + " " + "Rachman";
+
+      // Mengakses variable 
+      // catatan: kode program jalannya/membacanya itu dari atas ke bawah 
+      // var fullName = "Danni Adhyatma Rachman Don Anthonio Kroos";
+      
+      // var fullName = "Anthonio Leonardo Kroos"; //atau penulisannya bisa langsung fullName = "Anthonio Leonardo Kroos"
+      // Apabila merubah value variablenya pada posisi ini maka kode program dapat jalan/dibaca
+
+      // document.writeln(fullName);
+      // document.writeln("</br>");
+      // document.writeln(fullName);
+      // document.writeln("</br>");
+      // document.writeln(fullName);
+
+      // fullName = "Anthonio Vin Kroos"; //Apabila pada posisi ini merubah value variablenya maka program yang berjalan di bawahnya
+
+      // document.writeln("</br>");
+      // document.writeln(fullName);
+      // document.writeln("</br>");
+      // document.writeln(fullName);
+      // document.writeln("</br>");
+
+      // Apabila merubah value variablenya dibawah maka tidak dibaca contohnya dibawah ini
+      //var fullName = "Leon Anthonio Kroos"; yg ini tidak dibaca
+      
+
+    </script>
+  </body>
+</html>

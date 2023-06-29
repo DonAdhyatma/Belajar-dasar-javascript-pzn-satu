@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Unary Pada JS</title>
+</head>
+<!-- Operator Unary -> yang biasanya menggunakan cukup 1 data saja. bukan kombinasi untuk 2 data
+     Operator     | Keterangan
+     +            | Menandakan nilai positif
+     -            | Menandakan nilai negatif
+     ++           | Increment, menaikkan 1 angka
+     --           | Decrement, menurunkan 1 angka  -->
+
+<body>
+    <script>
+                         // untuk angka awalanya bebas mau positif berapapun
+        let result = +2; //default angka itu positif
+        document.writeln("<p>" + result + "</p>");
+
+        result--; //artinya result = result - 1; result -= 1; outputnya 1
+        document.writeln("<p>" + result + "</p>");
+       
+        result++;
+        document.writeln("<p>" + result + "</p>");
+
+        result = - result;
+        document.writeln("<p>" + result + "</p>");
+
+        result = - result;
+        document.writeln("<p>" + result + "</p>");
+
+        result = ++ result;
+        document.writeln("<p>" + result + "</p>");
+
+        // result--; //artinya result = result - 1; result -= 1; outputnya 1
+        // document.writeln("<p>" + result + "</p>");
+
+        // result--; //artinya result = result - 1; result -= 1; outputnya 1
+        // // document.writeln("<p>" + result + "</p>");
+
+        // result++;
+
+        // result = -result;
+        // document.writeln("<p>" + result + "</p>");
+
+        // result = -result;
+        // document.writeln("<p>" + result + "</p>");
+
+        // result++; //artinya result = result + 1; result += 1; outputnya 2
+        // document.writeln("<p>" + result + "</p>");
+
+        // result = -result; //-2 dikonversi angka yang positif menjadi negatif
+        // document.writeln("<p>" + result + "</p>");
+
+        // result = +2;
+        // document.writeln("<p>" + result + "</p>");
+        
+        // originalResult = result;
+        // result = +result
+        //  //-2 dijadikan angka positif
+        // document.writeln("<p>" + originalResult + "</p>");
+
+    </script>    
+</body>
+</html>

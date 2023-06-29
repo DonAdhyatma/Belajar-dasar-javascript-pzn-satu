@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data String pada JS</title>    
+</head>
+<!-- Tipe Data String: 
+    1. Tipe data string atau text adalah tipe data yang berisikan kumpulan kosong atau 
+       lebih karakter.
+    2. Sebelumnya kita sudah pernah menggunakan string ketika membuat program hello world.
+    3. Di Javascript, untuk membuat data dengan tipe string, kita perlu menggunakan petik dua("")
+       atau petik satu ('') sebelum dan setelah isi textnya-->
+<!-- Menambah String/Menggabungkan istilahnya string CONCAT
+    1. Data string bisa digabung menggunakan operator tambah/plus(+) bisa sampai berapapun -->
+<!-- Escape Sequence
+    1. Javascript mendukung escape sequence di string. Escape sequence merupakan karakter khusus,
+       seperti ENTER, TAB,kutip dua("),dan lain-lain. Berikut contoh escape sequence yang didukung
+       oleh javascript di tipe data string:
+       for ENTER -> \n , for TAB -> \t , for kutip satu -> \' , for kutip dua -> \" , for garing -> \ -->
+<body>
+    
+    <script>
+        document.writeln("<textarea cols='100' rows='10'>");
+        /* document.writeln("Nama " + "Lengkap : " + "Danni Adhyatma Rachman");
+         document.writeln("<br>");
+         document.writeln("Pendidikan : " + "Mahasiswa Semester Lima Politeknik Negeri Samarinda");
+         document.writeln("<br>");
+         document.writeln("Klub " + "Favorit : " + "Real Madrid"); */
+        document.write("Danni \nAdhyatma? \nRachman2\n");
+        document.write("\\Home\\rachman\n");
+        document.write("\"Programmer Zaman Now\"\n");
+        document.write('\'Belajar Javascript\'');
+        document.writeln("</textarea>");
+    </script>
+
+</body>
+</html>

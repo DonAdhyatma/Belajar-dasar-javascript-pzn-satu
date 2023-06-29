@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Matematika dalam Javascript</title>
+    <!-- Operator Matematika
+         Javascript mendukung banyak sekali operator Matematika untuk tipe data Number, seperti:
+         1. Operator Aritmatika, 2. Operator Augmented Assignments, 3. Operator Unary, 4. dll
+         Untuk definisi operator sendiri adalah suatu simbol yang biasa digunakan dalam penulisan bahasa pemrograman.
+         Tugas utama dari operator adalah menjalankan suatu operasi -->
+    <!-- Operator Aritmatika
+         1. Pertambahan menggunakan operator -> +
+         2. Pengurangan menggunakan operator -> -
+         3. Perkalian menggunakan operator -> *
+         4. Eksponensial menggunakan operator -> **
+         5. Pembagian menggunakan operator -> /
+         6. Sisa Bagi(Modulus) menggunakan -> % -->
+</head>
+
+<body>
+    
+    <script>
+        let result = 1 + 2; //hasil 3
+        document.writeln("<p>1 + 2 = " + result + "</p>");
+        let originalResult = result; // 3 
+
+        result = result - 1; //2
+        document.writeln("<p>" + originalResult + " - 1 = " + result +"</p>");
+        originalResult = result; //2
+
+        result = result * 2; //4 
+        document.writeln("<p>" + originalResult + " * 2 = " + result +"</p>");
+        originalResult = result; //4
+        
+        result = result ** 4;  
+        document.writeln("<p>" + originalResult + " pangkat 4 = " + result +"</p>");
+        originalResult = result;
+
+        result = result /8;  
+        document.writeln("<p>" + originalResult + " / 8 = " + result +"</p>");
+        originalResult = result;
+        
+        result = result % 3;  
+        document.writeln("<p>" + originalResult + " % 3 = " + result +"</p>");
+        originalResult = result;
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Logika Pada JS</title>
+
+</head>
+    <!-- Operator Logika
+         1. Operator logika adalah operator untuk dua buah data boolean
+         2. Hasil dari operator logika adalah boolean lagi -->
+
+    <!-- Operator           | Keterangan
+         &&                 | Dan
+         ||                 | Atau
+        | !                 | Kebalikan -->
+    <!-- catatan operator logika ini semuanya digunakan untuk operasi tipe data boolean
+         bukan tipe data yang lain-->
+    
+    <!-- Operator && 
+         Nilai 1        | Operator      | Nilai 2       | Hasil
+         true           | &&            | true          | true
+         true           | &&            | false         | false
+         false          | &&            | true          | false
+         false          | &&            | false         | false
+         penjelasan simpelnya kalau salah satu ada nilai false maka hasil nya false
+         untuk mendapatkan hasil true maka kedua nilai harus bernilai true-->
+    <!-- Operator || (atau)
+         Nilai 1        | Operator      | Nilai 2       | Hasil
+         true           |   ||          | true          | true
+         true           |   ||          | false         | true
+         false          |   ||          | true          | true
+         false          |   ||          | false         | false-->
+
+    <!-- Operator ! -> cuma digunakan untuk satu data
+         Operator       | Nilai        | Hasil
+       |  !             | true         | false
+       |  !             | false        | true
+         catatan gunanya untuk membalikkan data boolean -->
+<body>
+
+    <script>
+        
+        const nilaiUjian = 90;
+        const nilaiAbsensi = 60;
+
+        const lulusUjian = nilaiUjian > 75;
+        document.writeln("<p>" + lulusUjian + "</p>");
+        const lulusAbsensi = nilaiAbsensi > 75;
+        document.writeln("<p>" + lulusAbsensi + "</p>");
+
+        const lulus = lulusUjian || lulusAbsensi;
+        document.writeln("<p>" + lulus + "</p>");
+
+        const kebalikanNilai = ! lulus;
+        document.writeln("<p>" + kebalikanNilai + "</p>"); 
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Template Pada Javascript</title>
+
+</head>
+<!-- String Template
+     1. Kita sudah tahu bahwa untuk menambahkan string dengan data lain, kita bisa menggunakan operator + (plus)
+     2. Namun pada kasus tertentu, penggunaan operator + (plus) sangat menyulitkan, apalagi jika dalam jumlah banyak
+     3. Javascript memiliki fitur yang bernama String Template, dimana kita bisa mensubstitusi data dari luar string
+        ke dalam String, seperti mengambil data variable, atau bahkan melakukan operasi matematika
+     4. Untuk menggunakan String Template, cara pembuatan Stringnya harus menggunakan `(backtick), bukan '(petik satu)
+        atau "(petik dua) -->
+
+<body>
+    
+    <script>
+    // substitution variable di string template
+    //    const name = "Danni Adhyatma Rachman";
+       const name = "Name :"
+       const firstName = "Danni";
+       const middleName = "Adhyatma";
+       const lastName = "Rachman";
+       const fullName = "Danni Adhyatma Rachman";
+
+       const template = `${name} ${firstName} ${middleName} ${lastName}`;
+       console.info(template);
+
+       //mulai sekarang kalau butuh banyak variable lain gunakan string template seperti di atas
+
+       const nilai = 70;
+       const template2 = `Name : ${fullName}, Lulus : ${nilai > 70}`;
+       //tidak hanya bisa mensubstitusi dengan variable tapi juga bisa dengan ekspresi
+       console.info(template2);
+
+        
+      //jangan gunakan cara yang lama seperti dibawah cara baru menggunakan string template seperti di atas
+
+      //const tempat = "Name : " + firstName + " " + middleName + " " + lastName; 
+
+
+
+    </script>
+
+</body>
+
+</html>

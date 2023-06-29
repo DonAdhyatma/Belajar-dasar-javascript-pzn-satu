@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable JS let dan const</title>
+</head>
+    <!-- KATA KUNCI let dan const
+    1. Sebelum tahun 2015, kata untuk membuat variable hanya bisa menggunakan kata kunci var
+    2. Namun pada tahun 2015 sejak versi ECMAScript 2015, diperkenalkan kata kunci baru untuk 
+       membuat variable yaitu let dan const
+    3. Javascript sekarang tidak direkomendasikan lagi menggunakan kata kunci var untuk membuat
+       variable, namun diganti dengan let, hal ini dikarenakan ada masalah dari desain awal var
+       (akan kita bahas di chapter tersendiri)-->
+
+<body>
+   
+    <script>
+      //Kode : Variable let 
+      // catatan: kode program jalannya/membacanya itu dari atas ke bawah 
+      let firstName ="Anthonio";
+      let middleName ="Leonardo";
+      let lastName ="Kroos";
+      let fullName = "Anthonio Leonardo Kroos"; //penulisannya bisa langsung -> fullName = "Anthonio Leonardo Kroos"
+      // Apabila merubah value variablenya pada posisi ini maka kode program dapat berjalan/dibaca
+
+       document.writeln(fullName);
+       document.writeln("</br>");
+       document.writeln(firstName);
+       document.writeln("</br>");
+       document.writeln(middleName);
+       document.writeln("</br>");
+       document.writeln(lastName);
+       document.writeln("</br>");
+
+       fullName = "Anthonio Vin Kroos"; //Apabila pada posisi ini merubah value variablenya maka program yang berjalan di bawahnya
+
+       document.writeln(fullName);
+       document.writeln("</br>");
+
+       fullName = ("Amelie Kroos");
+
+       document.writeln(fullName);
+       document.writeln("</br>");
+      // Apabila merubah value variablenya dibawah maka tidak dibaca. contohnya dibawah ini
+      // fullName = "Leon Anthonio Kroos"; yg ini tidak dibaca
+
+    </script>
+    
+
+
+</body>
+</html>

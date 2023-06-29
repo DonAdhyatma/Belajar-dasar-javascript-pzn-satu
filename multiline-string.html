@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiline String Pada JS</title>
+
+</head>
+<!-- Multiline String
+     1. String template juga bisa digunakan untuk membuat string multi line
+     2. Kita cukup tambahkan enter di text nya -->
+
+<body>
+    
+    <script>
+
+        // jadi untuk petik ' (satu) dan petik " (dua) tidak support multiline
+
+        let multiLineString = `
+Nama saya adalah Danni Adhyatma,
+Hello World,
+Hahahahaha,
+Saya sedang belajar Javascript,
+Test ya lancar ga nih`;
+        
+        // const contoh = "Danni Adhyatma
+        //         Rachman
+        // Belaja Javascript" contoh seperti ini multiline tidak berjalan
+        
+
+        document.writeln("<pre>");
+        document.writeln(multiLineString);
+        document.writeln("</pre>");
+
+    </script>
+
+</body>
+
+</html>

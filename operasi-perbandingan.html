@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operasi Perbandingan Pada JS</title>
+</head>
+<!-- Operasi Perbandingan atau Operator Perbandingan
+     1. Operasi perbandingan adalah operasi untuk membandingkan dua buah data
+     2. Operasi perbandingan adalah operasi yang menghasilkan nilai boolean(benar atau salah)
+     3. Jika hasil operasinya adalah benar, maka nilainya true 
+     4. Jika hasil operasinya adalah salah, maka nilainya false -->
+<!-- Operator Perbandingan yang di dukung javascript
+     Operator           | Keterangan 
+     >                  | Lebih Dari
+     <                  | Kurang Dari
+     >=                 | Lebih Dari Sama Dengan
+     <=                 | Kurang Dari Sama Dengan
+     ==                 | Sama Dengan
+     ===                | Sama Dengan dan Sama Tipe datanya
+   |  !=                | Tidak Sama Dengan 
+   |  !==               | Tidak Sama Dengan atau Tidak Sama Tipe -->
+
+<body>
+    
+    <script>
+
+        let result = 5 =="5";
+        document.writeln("<p>" + result + "</p>");
+
+        result = 5 === 6;
+        document.writeln("<p>" + result + "</p>");
+
+        result = 5 > 10; //false
+        document.writeln("<p>" + result + "</p>");
+
+        result = 5 < 8;
+        document.writeln("<p>" + result + "</p>");
+
+        result = 5 >= 4;
+        document.writeln("<p>" + result + "</p>");
+
+        result = 3 <= 5;
+        document.writeln("<p>" + result + "</p>");
+
+        result = 3 == 3;
+        document.writeln("<p>" + result + "</p>");
+
+        result = 3 === "3";
+        document.writeln("<p>" + result + "</p>");
+
+        result = 5 != "4";
+        document.writeln("<p>" + result + "</p>");
+
+        result = 5 !== 5;
+        document.writeln("<p>" + result + "</p>");
+
+    </script>
+
+</body>
+</html>
